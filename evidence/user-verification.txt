@@ -1,0 +1,26 @@
+CASE ID: PHISH-001
+EVIDENCE TYPE: Simulated user interview
+INTERVIEW TIME: 2026-10-21T14:35:00Z
+
+USER: employee@oakwood.example
+
+Q: Did you receive the suspicious Microsoft 365 email?
+A: Yes.
+
+Q: Did you open the verification link?
+A: Yes. I clicked it before realizing it was suspicious.
+
+Q: Did you enter your password?
+A: I entered my Microsoft 365 password.
+
+Q: Did you approve an MFA notification?
+A: No. I did not receive or approve an MFA prompt.
+
+Q: Did you sign in from an unfamiliar device at 14:21 UTC?
+A: No. I was using my company laptop.
+
+Q: Did you authorize anyone else to access your account?
+A: No.
+
+ANALYST NOTE:
+User statements are simulated and require correlation with technical evidence.

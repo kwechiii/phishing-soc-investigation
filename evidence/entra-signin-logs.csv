@@ -1,0 +1,6 @@
+timestamp,user,source_ip,location,status,mfa_status,device
+2026-10-21T13:45:00Z,employee@oakwood.example,192.0.2.25,Houston,success,satisfied,managed-laptop
+2026-10-21T14:16:35Z,employee@oakwood.example,192.0.2.25,Houston,success,satisfied,managed-laptop
+2026-10-21T14:20:11Z,employee@oakwood.example,198.51.100.77,Unknown,failed,not_satisfied,unknown-device
+2026-10-21T14:20:35Z,employee@oakwood.example,198.51.100.77,Unknown,failed,not_satisfied,unknown-device
+2026-10-21T14:21:02Z,employee@oakwood.example,198.51.100.77,Unknown,success,not_required,unknown-device

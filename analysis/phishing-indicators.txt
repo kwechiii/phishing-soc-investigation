@@ -1,0 +1,25 @@
+CASE ID: PHISH-001
+ANALYSIS: Phishing Indicators
+EVIDENCE SOURCE: Simulated email and headers
+
+1. SENDER IMPERSONATION
+Display name: Microsoft 365 Support
+Domain: account-review.example
+Finding: Sender claims Microsoft affiliation.
+
+2. URGENCY
+Finding: Email threatens account suspension within 24 hours.
+
+3. SUSPICIOUS URL
+URL: https://login-review.example/verify
+Finding: Unrelated domain requests credential verification.
+
+4. EMAIL AUTHENTICATION
+SPF: FAIL
+DKIM: NONE
+DMARC: FAIL
+
+CLASSIFICATION: Suspected phishing email
+ACCOUNT COMPROMISE: Not established
+
+NOTE: All evidence is simulated.

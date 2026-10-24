@@ -1,0 +1,3 @@
+timestamp,user,file,location,sensitive_info_type,match_count,policy,action,status
+2026-10-21T14:23:18Z,employee@oakwood.example,Finance-Q4-Report.xlsx,SharePoint,FinancialAccountNumber,12,Finance-Data-Protection,AuditOnly,matched
+2026-10-21T14:24:07Z,employee@oakwood.example,Finance-Q4-Report.xlsx,SharePoint,FinancialAccountNumber,12,Finance-Data-Protection,AuditOnly,download_allowed

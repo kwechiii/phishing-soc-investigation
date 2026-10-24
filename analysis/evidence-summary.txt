@@ -1,0 +1,45 @@
+CASE PHISH-001 - EVIDENCE CORRELATION SUMMARY
+=============================================
+SIMULATED SOC INVESTIGATION
+
+PHISHING EMAIL
+Sender: support@account-review.example
+SPF: FAIL | DKIM: NONE | DMARC: FAIL
+Suspicious URL: https://login-review.example/verify
+
+USER ACTIVITY
+14:16:35 UTC - Suspicious URL visited
+User reported entering Microsoft 365 password
+
+AUTHENTICATION
+14:20:11 UTC - Failed sign-in
+14:20:35 UTC - Failed sign-in
+14:21:02 UTC - Successful unfamiliar sign-in
+Source IP: 198.51.100.77
+MFA: Not required (reason undetermined)
+
+MICROSOFT 365 AUDIT
+14:21:15 UTC - Mailbox login
+14:22:03 UTC - Inbox accessed
+14:23:18 UTC - Finance report accessed
+14:24:07 UTC - Finance report downloaded
+
+DLP FINDINGS
+Sensitive information: Financial account numbers
+Matches: 12
+Policy: Finance-Data-Protection
+Action: AuditOnly
+Download: Allowed
+
+INCIDENT CLASSIFICATION
+Confirmed unauthorized account access (simulated)
+Potential sensitive-data exposure
+Further external distribution not established
+
+RISK ASSESSMENT
+Current Risk: 9/9 (High)
+Projected Residual Risk: 3/9 (Medium)
+
+IMPORTANT:
+All evidence is fictional training data.
+No live Microsoft 365 tenant was investigated.

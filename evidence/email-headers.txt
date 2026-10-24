@@ -1,0 +1,19 @@
+CASE ID: PHISH-001
+EVIDENCE TYPE: Simulated email headers
+NOTE: Synthetic training evidence; not captured from a live email.
+
+From: "Microsoft 365 Support" <support@account-review.example>
+To: employee@oakwood.example
+Return-Path: <bounce@account-review.example>
+Subject: URGENT: Microsoft 365 Account Suspension Notice
+Message-ID: <phish001@account-review.example>
+Date: Wed, 21 Oct 2026 09:14:00 -0500
+
+Authentication-Results: mail.oakwood.example;
+ spf=fail smtp.mailfrom=account-review.example;
+ dkim=none;
+ dmarc=fail header.from=account-review.example
+
+Received: from mail.account-review.example
+ by mail.oakwood.example;
+ Wed, 21 Oct 2026 09:14:02 -0500

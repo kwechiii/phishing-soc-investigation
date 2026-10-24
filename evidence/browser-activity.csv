@@ -1,0 +1,5 @@
+timestamp,user,event,url,status
+2026-10-21T14:14:02Z,employee@oakwood.example,email_received,N/A,delivered
+2026-10-21T14:16:35Z,employee@oakwood.example,browser_navigation,https://login-review.example/verify,success
+2026-10-21T14:17:08Z,employee@oakwood.example,browser_navigation,https://login.microsoftonline.com/,success
+2026-10-21T14:19:22Z,employee@oakwood.example,email_reported,N/A,reported_to_security

@@ -1,0 +1,5 @@
+timestamp,user,operation,source_ip,result,object
+2026-10-21T14:21:15Z,employee@oakwood.example,MailboxLogin,198.51.100.77,success,ExchangeOnline
+2026-10-21T14:22:03Z,employee@oakwood.example,MailItemsAccessed,198.51.100.77,success,Inbox
+2026-10-21T14:23:18Z,employee@oakwood.example,FileAccessed,198.51.100.77,success,Finance-Q4-Report.xlsx
+2026-10-21T14:24:07Z,employee@oakwood.example,FileDownloaded,198.51.100.77,success,Finance-Q4-Report.xlsx

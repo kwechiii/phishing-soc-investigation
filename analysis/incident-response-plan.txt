@@ -1,0 +1,51 @@
+CASE ID: PHISH-001
+DOCUMENT: Incident Response and Containment Plan
+SCENARIO: Simulated Microsoft 365 Account Compromise
+
+INCIDENT CLASSIFICATION:
+Confirmed unauthorized account access (simulated).
+
+PRIORITY:
+High - Sensitive financial information accessed.
+
+PHASE 1 - IMMEDIATE CONTAINMENT
+1. Temporarily block the affected account's sign-in.
+2. Revoke active sessions and refresh tokens.
+3. Reset the affected account's password.
+4. Review registered MFA methods and trusted devices.
+5. Investigate suspicious sessions and source IPs.
+
+PHASE 2 - INVESTIGATION
+1. Preserve email, authentication, and audit evidence.
+2. Review mailbox rules and forwarding settings.
+3. Investigate SharePoint and OneDrive file activity.
+4. Identify additional affected users or accounts.
+5. Determine the scope of sensitive-data exposure.
+
+PHASE 3 - ERADICATION AND RECOVERY
+1. Remove unauthorized mailbox rules or permissions.
+2. Remove unauthorized authentication methods.
+3. Review endpoint security alerts.
+4. Restore legitimate access after verification.
+5. Monitor the account for recurring suspicious activity.
+
+PHASE 4 - PREVENTION
+1. Strengthen phishing-resistant MFA.
+2. Review Conditional Access policies.
+3. Evaluate DLP enforcement for sensitive files.
+4. Configure alerts for unusual downloads.
+5. Provide targeted phishing-awareness training.
+
+PHASE 5 - POST-INCIDENT REVIEW
+1. Document the incident timeline.
+2. Identify security-control gaps.
+3. Record recommended remediation actions.
+4. Assign remediation owners and target dates.
+5. Validate controls before closing the incident.
+
+STATUS:
+Proposed response actions only.
+No real Microsoft 365 accounts were modified.
+
+NOTE:
+All incident evidence is simulated for training.

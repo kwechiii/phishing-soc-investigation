@@ -1,0 +1,57 @@
+CASE ID: PHISH-001
+ASSESSMENT: Phishing Incident Risk Assessment
+EVIDENCE TYPE: Simulated training scenario
+
+THREAT:
+Credential phishing leading to unauthorized Microsoft 365 access.
+
+VULNERABILITIES / CONTROL GAPS:
+1. Employee entered credentials into a phishing website.
+2. Unfamiliar sign-in succeeded without an MFA requirement.
+3. DLP policy operated in AuditOnly mode.
+4. Sensitive financial information was downloaded.
+
+CURRENT RISK ASSESSMENT:
+Likelihood: 3/3 (High)
+Impact: 3/3 (High)
+Risk Score: 9/9 (High)
+
+RISK RATIONALE:
+The simulated incident includes confirmed unauthorized
+account access and a download of sensitive financial data.
+Further distribution of the data is not established.
+
+NIST SP 800-53 CONTROL MAPPING:
+
+IA-2 - Identification and Authentication
+Review MFA requirements and authentication exceptions.
+
+AC-2 - Account Management
+Disable or secure compromised accounts and revoke sessions.
+
+SI-4 - System Monitoring
+Monitor suspicious sign-ins and unusual account activity.
+
+AU-6 - Audit Record Review, Analysis, and Reporting
+Correlate authentication, email, and file-access events.
+
+AC-4 - Information Flow Enforcement
+Evaluate restrictions on sensitive-data transfers.
+
+RECOMMENDED REMEDIATION:
+1. Reset affected credentials and revoke active sessions.
+2. Investigate unfamiliar sign-ins and connected devices.
+3. Strengthen phishing-resistant MFA where feasible.
+4. Review DLP policy enforcement and appropriate exceptions.
+5. Alert on suspicious access to sensitive financial files.
+6. Provide targeted phishing-awareness training.
+
+PROPOSED RESIDUAL RISK:
+Likelihood: 1/3 (Low)
+Impact: 3/3 (High)
+Risk Score: 3/9 (Medium)
+
+NOTE:
+Residual risk is a projected assessment, not a measured
+post-remediation outcome. Controls have not been implemented
+or validated in this simulated scenario.

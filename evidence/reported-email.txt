@@ -1,0 +1,19 @@
+CASE ID: PHISH-001
+EVIDENCE TYPE: Simulated reported phishing email
+ORGANIZATION: Oakwood Financial Services
+
+From: Microsoft 365 Support <support@account-review.example>
+To: employee@oakwood.example
+Subject: URGENT: Microsoft 365 Account Suspension Notice
+
+Dear Employee,
+
+Your Microsoft 365 account has been flagged for unusual activity.
+
+To prevent account suspension, you must verify your credentials within 24 hours.
+
+Verification link: https://login-review.example/verify
+
+Failure to complete verification may result in restricted access.
+
+Microsoft 365 Security Team
