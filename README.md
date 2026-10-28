@@ -67,3 +67,12 @@ classification and reveal security-control gaps.
 This is a fictional training scenario using synthetic
 evidence. No real Microsoft 365 tenant was investigated,
 and no live accounts or policies were modified.
+
+## Investigation Screenshots
+
+### Phishing Indicators
+![Phishing Indicators](screenshots/01-phishing-indicators.png)
+
+### Incident Timeline
+![Incident Timeline](screenshots/02-incident-timeline.png)
+
